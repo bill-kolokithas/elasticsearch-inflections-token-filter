@@ -2,9 +2,9 @@ package org.elasticsearch.plugin.analysis.inflections;
 
 import org.elasticsearch.index.analysis.AnalysisModule;
 import org.elasticsearch.index.analysis.InflectionsBinderProcessor;
-import org.elasticsearch.plugins.AbstractPlugin;
+import org.elasticsearch.plugins.Plugin;
 
-public class InflectionsPlugin extends AbstractPlugin {
+public class InflectionsPlugin extends Plugin {
 
 	@Override
 	public String description() {
